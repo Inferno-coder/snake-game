@@ -36,3 +36,22 @@
     transform: rotate(360deg);
   }
 }
+
+
+.game__wrapper{
+  display: flex;
+  height: 100vh;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.board{
+  height: 500px;
+  width: 500px;
+  align-items: center;
+  justify-content: center;
+  margin: 20px;
+}
+
